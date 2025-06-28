@@ -1,0 +1,89 @@
+/* Cores do Brasil */
+:root {
+    --verde: #009C3B;
+    --amarelo: #FFCC29;
+    --azul: #3E4095;
+    --branco: #FFFFFF;
+}
+
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, var(--verde), var(--azul), var(--amarelo));
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--verde);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Bandeira_do_Brasil.svg/1200px-Bandeira_do_Brasil.svg.png') no-repeat center center;
+    background-size: cover;
+    color: var(--branco);
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home .btn {
+    background-color: var(--amarelo);
+    color: var(--azul);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#sobre {
+    padding: 50px 20px;
+    background: var(--branco);
+    color: var(--azul);
+}
+
+#sobre h1, #sobre h2 {
+    color: var(--verde);
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    background: var(--verde);
+    color: var(--branco);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
